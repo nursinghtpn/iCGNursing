@@ -3,12 +3,12 @@
 // Kandungan sebenar sistem (dalam iframe) TIDAK di-cache di sini —
 // ia sentiasa dimuat terus dari Google Apps Script secara langsung.
 
-const CACHE_NAME = 'icg-nursing-shell-v1';
+const CACHE_NAME = 'icg-nursing-shell-v2';
 const SHELL_FILES = [
   './index.html',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-192.png?v=2',
+  './icons/icon-512.png?v=2'
 ];
 
 self.addEventListener('install', (event) => {
