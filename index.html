@@ -7,8 +7,8 @@
 
 <!-- ===== PWA: Manifest ===== -->
 <link rel="manifest" href="./manifest.json">
-<meta name="theme-color" content="#0E4C44">
-<meta name="background-color" content="#1B1640">
+<meta name="theme-color" content="#7C6FB0">
+<meta name="background-color" content="#EDEAF6">
 
 <!-- ===== Favicon (pelayar desktop) ===== -->
 <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png?v=2">
@@ -26,7 +26,7 @@
 <style>
   html, body {
     margin: 0; padding: 0; width: 100%; height: 100%;
-    overflow: hidden; background: #1B1640;
+    overflow: hidden; background: #EDEAF6;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
   #app-frame {
@@ -41,7 +41,7 @@
   #loading-screen {
     position: fixed; inset: 0; z-index: 10;
     display: flex; flex-direction: column; align-items: center; justify-content: center;
-    background: linear-gradient(160deg, #0A3631, #0E4C44 55%, #15665B);
+    background: linear-gradient(160deg, #5C5188, #7C6FB0 55%, #A79BD1);
     color: #fff; gap: 16px;
     transition: opacity .35s ease;
   }
@@ -62,12 +62,12 @@
   #offline-screen {
     position: fixed; inset: 0; z-index: 20; display: none;
     flex-direction: column; align-items: center; justify-content: center;
-    background: #1B1640; color: #fff; gap: 14px; text-align: center; padding: 24px;
+    background: #EDEAF6; color: #3D3856; gap: 14px; text-align: center; padding: 24px;
   }
   #offline-screen.show { display: flex; }
   #offline-screen button {
     margin-top: 10px; padding: 10px 22px; border-radius: 10px; border: none;
-    background: #0E4C44; color: #fff; font-weight: 600; font-size: 14px; cursor: pointer;
+    background: #7C6FB0; color: #fff; font-weight: 600; font-size: 14px; cursor: pointer;
   }
 </style>
 </head>
