@@ -3,7 +3,7 @@
 // Kandungan sebenar sistem (dalam iframe) TIDAK di-cache di sini —
 // ia sentiasa dimuat terus dari Google Apps Script secara langsung.
 
-const CACHE_NAME = 'icg-nursing-shell-v2';
+const CACHE_NAME = 'icg-nursing-shell-v4';
 const SHELL_FILES = [
   './index.html',
   './manifest.json',
